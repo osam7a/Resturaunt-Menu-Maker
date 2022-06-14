@@ -7,39 +7,62 @@
         <meta name="keywords" content="Menu, Resturaunt, Developer, Resturaunt Developer, Coding, QR, QR Code, Menu List, Online Menu">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/search.css">
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar">
-            <ul class="navbar__menu">
-                <li class="navbar__item" id="home">
-                    <a href="home.html" class="navbar__link"><i data-feather="home"></i><span>Home</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="message-square"></i><span>Messages</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="users"></i><span>About</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="folder"></i><span>Projects</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="archive"></i><span>Resources</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="help-circle"></i><span>Help</span></a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link"><i data-feather="settings"></i><span>Settings</span></a>
-                </li>
-            </ul>
-        </nav>
+        <section class="et-hero-tabs">
+            <h1>Name here</h1>
+            <h3>Virtual menus hosted on our pages for cheap!</h3>
+            <div class="et-hero-tabs-container">
+                <a class="et-hero-tab" href="#tab-search">Search</a>
+                <a class="et-hero-tab" href="#tab-flexbox">Tab</a>
+                <a class="et-hero-tab" href="#tab-react">Tab</a>
+                <a class="et-hero-tab" href="#tab-about">About us</a>
+                <a class="et-hero-tab special" href="#tab-host">Host a menu</a>
+                <span class="et-hero-tab-slider"></span>
+            </div>
+        </section>
+        
+        <!-- Main -->
+        <main class="et-main">
+            <section class="et-slide" id="tab-search">
+                <h1>Search</h1>
+                <h3>search our menus for what you need</h3>
+                <div class="cntr">
+                    <div class="cntr-innr">
+                        <label class="search" for="inpt_search">
+                            <input id="inpt_search" type="text" />
+                        </label>
+                        <p>Hover to search.</p>
+                        <a style="color: blue;" href="/menus.html">View all menus</a>
+                    </div>
+                </div>
+            </section>
+            <section class="et-slide" id="tab-flexbox">
+                <h1>Flexbox</h1>
+                <h3>something about flexbox</h3>
+            </section>
+            <section class="et-slide" id="tab-react">
+                <h1>React</h1>
+                <h3>something about react</h3>
+            </section>
+            <section class="et-slide" id="tab-about">
+                <h1>Angular</h1>
+                <h3>something about angular</h3>
+            </section>
+            <section class="et-slide" id="tab-host">
+                <h1>Other</h1>
+                <h3>something about other</h3>
+            </section>
+        </main>
         <!-- Scripts -->
-        <!-- Icon Scripts -->
+        <!-- Modules -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
         <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
         <!-- Custom Scripts -->
         <script src="js/index.js"></script>
+        <script src="js/navigation.js"></script>
     </body>
 </html>

@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Raleway:wght@100&family=Roboto&display=swap');
 
-body {
+html, body {
     background: #272727;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.search-input {
+    border-radius: 10px;
+    width: 40%;
+    padding-left: 1%;
+    border: 0;
 }
